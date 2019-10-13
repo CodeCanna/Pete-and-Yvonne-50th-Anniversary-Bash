@@ -17,8 +17,12 @@ a.nav-item {
 
 a.navbar-brand {
     font-family: 'Pinyon Script', cursive;
-    font-size: 50px;
+    font-size: 50px !important;
     color: white !important;
+}
+
+.nav-item-container {
+    width: 100%;
 }
 
 .container-fluid {
@@ -28,11 +32,6 @@ a.navbar-brand {
 .navbar-toggler-icon {
     color: white !important;
     font-size: 40px;
-}
-
-div#nav-item-container {
-    margin-left: auto !important;
-    margin-right: auto !important;
 }
 
 h1#the-rod-h1 {
@@ -52,6 +51,18 @@ p.rod-des-content
 
 article {
     padding-bottom: 5px;
+}
+
+nav.navbar.navbar-expand-lg {
+    padding-left: 20% !important;
+    padding-right: auto !important;
+}
+
+img.c-item {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 75vh !important;
+    height: 100vh !important;
 }
 
 /* Media Quries */
