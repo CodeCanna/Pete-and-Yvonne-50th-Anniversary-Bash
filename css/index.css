@@ -1,0 +1,65 @@
+body {
+    background: url('../resources/images/adrien-olichon-R2OM3BvN-Uo-unsplash.jpg') !important;
+    background-size: cover;
+    background-position: center center;
+}
+
+.nav-item:hover {
+    background-color: #FFD300 !important;
+    color: black !important;
+}
+
+a.nav-item {
+    color: white !important;
+    font-family: 'Tangerine', cursive !important;
+    font-size: 35px !important;
+}
+
+a.navbar-brand {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 50px;
+    color: white !important;
+}
+
+.container-fluid {
+    padding: 0px !important;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+    font-size: 40px;
+}
+
+div#nav-item-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+h1#the-rod-h1 {
+    font-family: 'Tangerine', cursive !important;
+}
+
+img#the-rod-img {
+    border: solid #FFD300 5px;
+}
+
+p.rod-des-content
+ {
+    font-family: 'Tangerine', cursive !important;
+    font-size: 40px;
+    padding: 10px;
+}
+
+article {
+    padding-bottom: 5px;
+}
+
+/* Media Quries */
+
+@media screen and (max-width: 1920px) and (max-height: 1080px) {
+    body {
+        background-size: cover;
+        background-repeat: repeat-y;
+        background-position: center center;
+    }
+}
